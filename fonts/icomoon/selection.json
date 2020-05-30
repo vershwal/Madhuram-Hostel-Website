@@ -13994,14 +13994,14 @@
         "isMulticolor2": false,
         "tags": [
           "bed",
-          "hotel"
+          "hostel"
         ],
         "defaultCode": 62006,
         "grid": 14
       },
       "attrs": [],
       "properties": {
-        "name": "bed, hotel",
+        "name": "bed, hostel",
         "id": 515,
         "order": 1371,
         "prevSize": 28,
@@ -28821,19 +28821,19 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "local_hotel"
+          "local_hostel"
         ],
         "defaultCode": 58697,
         "grid": 24
       },
       "attrs": [],
       "properties": {
-        "ligatures": "hotel, local_hotel",
+        "ligatures": "hostel, local_hostel",
         "id": 388,
         "order": 399,
         "prevSize": 24,
         "code": 58697,
-        "name": "local_hotel"
+        "name": "local_hostel"
       },
       "setIdx": 2,
       "setId": 2,

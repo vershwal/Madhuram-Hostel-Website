@@ -1803,7 +1803,7 @@
 .icon-bed:before {
   content: "\f236";
 }
-.icon-hotel:before {
+.icon-hostel:before {
   content: "\f236";
 }
 .icon-viacoin:before {
@@ -3546,7 +3546,7 @@
 .icon-hot_tub:before {
   content: "\eb46";
 }
-.icon-local_hotel:before {
+.icon-local_hostel:before {
   content: "\e549";
 }
 .icon-hourglass_empty:before {
