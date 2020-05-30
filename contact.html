@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
     
   </head>
   <body>
@@ -109,60 +110,43 @@
         <div class="row">
        
           <div class="col-md-12 col-lg-8 mb-5">
+            <div class="maptxt font-weight-bold">Location</div>
+            <div id="map"></div>
+                <script>
+               // Initialize and add the map
+              function initMap() {
+                // The location of Uluru
+                var uluru = {lat: 25.202, lng: 75.831};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 4, center: "Madhuram Girls Hostel"});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: "Madhuram Girls Hostel", map: map});
+              }
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVjW3WJMOHirGkAucyKNxHjwo84zZtxpU&callback=initMap">
+                </script>
           
-            
-          
-            <form action="#" class="p-5 bg-white">
-
-              <div class="row form-group">
-                <div class="col-md-12 mb-3 mb-md-0">
-                  <label class="font-weight-bold" for="fullname">Full Name</label>
-                  <input type="text" id="fullname" class="form-control" placeholder="Full Name">
-                </div>
-              </div>
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="font-weight-bold" for="email">Email</label>
-                  <input type="email" id="email" class="form-control" placeholder="Email Address">
-                </div>
-              </div>
-
-
-              <div class="row form-group">
-                <div class="col-md-12 mb-3 mb-md-0">
-                  <label class="font-weight-bold" for="phone">Phone</label>
-                  <input type="text" id="phone" class="form-control" placeholder="Phone #">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="font-weight-bold" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us"></textarea>
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary pill px-4 py-2">
-                </div>
-              </div>
-
-  
-            </form>
+           
+              
           </div>
 
           <div class="col-lg-4">
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">Contact Info</h3>
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p class="mb-4"><a href= "https://goo.gl/maps/xvpz7FnR65CJ5GqB8">Madhuram Girls Hostel, Plot C-1, Landmark City, Kuhadi, Kota
+                (Opp. Allen Samyak)</a></p>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+              <p class="mb-4"><a href="tel:+91952971501"> +91 - 952971501</a>
+              <br><a href="tel:+91952971502"> +91 - 952971502</a>
+              <br><a href="tel:+91952971503"> +91 - 952971504</a>
+              <br><a href="tel:+91952971504"> +91 - 952971503</a>
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+              <p class="mb-0"><a href="mailto:madhuramgirlshostel.@gmail.com">madhuramgirlshostel.@gmail.com</a></p>
 
             </div>
             
