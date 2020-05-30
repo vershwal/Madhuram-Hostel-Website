@@ -111,27 +111,10 @@
        
           <div class="col-md-12 col-lg-8 mb-5">
             <div class="maptxt font-weight-bold">Location</div>
-            <div id="map"></div>
-                <script>
-               // Initialize and add the map
-              function initMap() {
-                // The location of Uluru
-                var uluru = {lat: 25.202, lng: 75.831};
-                // The map, centered at Uluru
-                var map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 4, center: "Madhuram Girls Hostel"});
-                // The marker, positioned at Uluru
-                var marker = new google.maps.Marker({position: "Madhuram Girls Hostel", map: map});
-              }
-                </script>
-                <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVjW3WJMOHirGkAucyKNxHjwo84zZtxpU&callback=initMap">
-                </script>
-          
-           
-              
+            <div id="map">
+            <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Madhuram%20Girls%20Hostel+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
           </div>
-
+        </div>
           <div class="col-lg-4">
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">Contact Info</h3>
@@ -156,7 +139,7 @@
       </div>
     </div>
     
-
+    
 
     
     <footer class="site-footer">

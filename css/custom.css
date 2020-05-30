@@ -1,27 +1,14 @@
-@font-face {
-    font-family: "Gigi-Regular";
-    src: url("fonts/GIGI.eot"); /* IE9 Compat Modes */
-    src: url("fonts/GIGI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("fonts/GIGI.otf") format("opentype"), /* Open Type Font */
-      url("fonts/GIGI.svg") format("svg"), /* Legacy iOS */
-      url("fonts/GIGI.ttf") format("truetype"), /* Safari, Android, iOS */
-      url("fonts/GIGI.woff") format("woff"), /* Modern Browsers */
-      url("fonts/GIGI.woff2") format("woff2"); /* Modern Browsers */
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  .site-blocks-cover h1{
+.site-blocks-cover h1{
   }
 
 
   #map {
     height: 400px;  /* The height is 400 pixels */
     width: 90%;  /* The width is the width of the web page */
-    margin-left: 50px;
-  }
+    }
 
   .maptxt {
-    margin-left: 50px;
-    margin-bottom: 2em;
+   
+    margin-bottom: .5em;
+    font-size: 1.3em;
   }
