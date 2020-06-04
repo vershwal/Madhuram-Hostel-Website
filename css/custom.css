@@ -1,0 +1,14 @@
+.site-blocks-cover h1{
+  }
+
+
+  #map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 90%;  /* The width is the width of the web page */
+    }
+
+  .maptxt {
+   
+    margin-bottom: .5em;
+    font-size: 1.3em;
+  }

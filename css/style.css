@@ -206,7 +206,7 @@ a {
         text-transform: uppercase;
         letter-spacing: .05em;
         color: rgba(0, 0, 0, 0.6);
-        font-size: 14px !important;
+        font-size: 18px !important;
         text-decoration: none !important; }
       .site-navbar .site-navigation .site-menu > li:last-child {
         padding-right: 0; }
@@ -1370,40 +1370,40 @@ a {
 .caption {
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-size: 12px;
+  font-size: 20px;
   padding: 7px 10px;
   color: #fff;
   display: inline-block; }
 
-.hotel-room {
+.hostel-room {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
   background: #fff; }
-  .hotel-room .heading {
+  .hostel-room .heading {
     font-size: 20px;
     text-transform: uppercase; }
-    .hotel-room .heading a {
+    .hostel-room .heading a {
       color: #000; }
-  .hotel-room .hotel-room-body {
+  .hostel-room .hostel-room-body {
     padding: 30px; }
-    .hotel-room .hotel-room-body .price {
+    .hostel-room .hostel-room-body .price {
       color: #5c7893;
       font-weight: 400; }
-  .hotel-room > .thumbnail {
+  .hostel-room > .thumbnail {
     overflow: hidden;
     position: relative; }
-    .hotel-room > .thumbnail img {
+    .hostel-room > .thumbnail img {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease;
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1); }
-  .hotel-room:hover {
+  .hostel-room:hover {
     -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05); }
-    .hotel-room:hover img {
+    .hostel-room:hover img {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       transform: scale(1.05); }
