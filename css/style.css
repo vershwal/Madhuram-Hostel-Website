@@ -1327,6 +1327,32 @@ a {
   -ms-transform: translateX(0%);
   transform: translateX(0%); }
 
+  .section-heading h3 {
+  position: relative;
+  display: inline-block;
+  font-family: "Playfair Display";
+  font-size: 30px; }
+  .section-heading h3:before, .section-heading h3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    background: #000;
+    left: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .section-heading h3:before {
+    width: 100px;
+    bottom: -10px;
+    left: 50%; }
+
+.section-heading.text-left h3:before, .section-heading.text-left h3:after {
+  left: 0;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%); }
+
 .unit-8 .accordion-item .heading {
   font-size: 1.2rem;
   font-weight: 400;
