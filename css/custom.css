@@ -18,7 +18,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+@media (max-width:768px){
   .site-footer {
       text-align: center;
   }
+}
