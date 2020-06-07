@@ -1407,11 +1407,17 @@ a {
   padding-left: 30px; }
 
 .caption {
-  text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 20px;
   padding: 7px 10px;
   color: #fff;
+  display: inline-block; }
+
+  .caption2 {
+  letter-spacing: .2em;
+  font-size: 20px;
+  padding: 7px 10px;
+  color: #333333;
   display: inline-block; }
 
 .hostel-room {
