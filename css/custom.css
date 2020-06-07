@@ -62,7 +62,7 @@ hero_3_land _|
 
 /*Images for Phone in Portrait mode*/
 
-@media  (orientation: portrait) {
+@media (max-width:768) and (orientation: portrait) {
   .imgCar1 {
     background-image: url("../images/hero_1_port.jpg");
   }
