@@ -24,3 +24,77 @@
   }
 }
 
+
+
+/*Carousel Images===================================================
+Images Directory Index
+         _
+hero_1   |  
+hero_2   | -  Images for Desktop
+hero_3 _|
+
+              _
+hero_1_port   |  
+hero_2_port   | -  Images for Phone in Portrait
+hero_3_port _|
+
+
+              _
+hero_1_land   |  
+hero_2_land   | -  Images for Phone in Landscape mode (same as desktop by default)
+hero_3_land _|
+
+*/
+
+/*Images for Desktop and anything except phone*/
+
+.imgCar1 {
+  background-image: url("../images/hero_1.jpg");
+}
+
+.imgCar2 {
+  background-image: url("../images/hero_2.jpg");
+}
+
+.imgCar3 {
+  background-image: url("../images/hero_3.jpg");
+}
+
+/*Images for Phone in Portrait mode*/
+
+@media  (orientation: portrait) {
+  .imgCar1 {
+    background-image: url("../images/hero_1_port.jpg");
+  }
+
+  .imgCar2 {
+    background-image: url("../images/hero_2_port.jpg");
+  }
+  
+  .imgCar3 {
+    background-image: url("../images/hero_3_port.jpg");
+  }
+
+}
+
+
+/*Images for Phone in landscape mode
+These are the same as desktop images, but can be changed*/
+
+@media (orientation: landscape) {
+  .imgCar1 {
+    background-image: url("../images/hero_1_land.jpg");
+    
+  }
+
+  .imgCar2 {
+    background-image: url("../images/hero_2_land.jpg");
+    
+  }
+
+  .imgCar3 {
+    background-image: url("../images/hero_3_land.jpg");
+    
+  }
+
+}
