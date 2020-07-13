@@ -131,6 +131,14 @@ These are the same as desktop images, but can be changed*/
   opacity: 0;
 }
 
-*{
+*, 
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: default;
 }
+
+.quote-text {
+  background-size: contain;
+  background-image: url('images/qrt2.jpg');
+  background-repeat: no-repeat;
+}
+
