@@ -143,10 +143,3 @@ These are the same as desktop images, but can be changed*/
   background-repeat: no-repeat;
 }
 
-.quote-text1 {
-  background-image: url("../images/qrt.jpg");
-  background-size: cover;
-  
-  background-repeat: no-repeat;
-}
-
