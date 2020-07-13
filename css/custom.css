@@ -137,8 +137,9 @@ These are the same as desktop images, but can be changed*/
 }
 
 .quote-text {
-  background-size: contain;
-  background-image: url('images/qrt2.jpg');
+  background-image: url("../images/qrt2.jpg");
+  background-size: cover;
+  
   background-repeat: no-repeat;
 }
 
