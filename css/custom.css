@@ -102,17 +102,13 @@ These are the same as desktop images, but can be changed*/
 
 
 .hero-text-padding {
-  padding: 5em 0;
+  padding: 5em 0;s
 }
 
-.single-popup{
-  cursor: default;
-}
 /* This is Sass code, to get pure CSS click on "scss" label above */
 .mfp-with-fade .mfp-content,
 .mfp-with-fade .mfp-arrow, .mfp-with-fade.mfp-bg {
   opacity: 0;
-  cursor: default;
   -webkit-backface-visibility: hidden;
   -webkit-transition: opacity 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out;
@@ -133,13 +129,11 @@ These are the same as desktop images, but can be changed*/
 
 *, 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: default;
 }
 
 .quote-text {
   background-image: url("../images/qrt2.jpg");
   background-size: cover;
-  
   background-repeat: no-repeat;
 }
 
