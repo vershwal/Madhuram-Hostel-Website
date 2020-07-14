@@ -1419,6 +1419,16 @@ a {
   padding: 7px 10px;
   color: #fff; }
 
+  .facility {
+  letter-spacing: .2em;
+  font-size: 18px;
+  padding: 7px 10px;
+  color: #000;
+  text-align: justify;
+  text-justify: inter-word;
+
+   }
+
   .caption2 {
   letter-spacing: .2em;
   font-size: 18px;
