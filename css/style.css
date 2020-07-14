@@ -1197,9 +1197,9 @@ a {
   flex: 0 0 80px; }
 
 .block-testimony .person1 {
--webkit-box-flex: 0;
--ms-flex: 0 0 120px;
-flex: 0 0 120px; }
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 120px;
+  flex: 0 0 120px; }
 
 .block-testimony blockquote {
   font-size: 1rem;
