@@ -639,7 +639,7 @@ a {
       transform: translate(-60%, -50%); }
 
 .site-block-testimony img {
-  max-width: 140px;
+  max-width: 1400px;
   border-radius: 50%; }
 
 .site-block-testimony p {
@@ -1195,6 +1195,11 @@ a {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 80px;
   flex: 0 0 80px; }
+
+.block-testimony .person1 {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 120px;
+flex: 0 0 120px; }
 
 .block-testimony blockquote {
   font-size: 1rem;
