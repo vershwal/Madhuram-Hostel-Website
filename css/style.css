@@ -1413,6 +1413,12 @@ a {
   color: #fff;
   display: inline-block; }
 
+.caption3 {
+  letter-spacing: .2em;
+  font-size: 18px;
+  padding: 7px 10px;
+  color: #fff; }
+
   .caption2 {
   letter-spacing: .2em;
   font-size: 18px;
