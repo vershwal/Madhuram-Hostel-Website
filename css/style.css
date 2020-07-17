@@ -1424,6 +1424,54 @@ a {
   padding: 7px 10px;
   color: #fff; }
 
+
+.gform {
+
+}
+
+.textbox {
+  border-radius:3px;
+  width:75%;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:8px;
+  margin-bottom:15px;
+}
+
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+
+.button1:hover{
+  background:#80b438;
+  
+}
+
+.button1{
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:8px;
+  margin-bottom:10px;
+  background:#90c843;
+  color:#FFF;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
   .facility {
   letter-spacing: .2em;
   font-size: 18px;
