@@ -111,6 +111,12 @@ a {
   height: 24px;
   width: 24px;
 }
+
+.footerLogo {
+  height: 65px;
+  width: 300px;
+  align-content: left;
+}
 .site-footer {
   padding: 2em 0;
   background-size: cover;
