@@ -108,7 +108,7 @@ a {
     padding: 2em 0; }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 2em 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -123,7 +123,9 @@ a {
     right: 0;
     bottom: 0; }
   .site-footer .footer-heading {
-    font-size: 20px; }
+    font-size: 20px; 
+    text-align: center;
+  }
   .site-footer a {
     color: rgba(255, 255, 255, 0.3); }
     .site-footer a:hover {
@@ -1431,7 +1433,7 @@ a {
 
 .textbox {
   border-radius:3px;
-  width:75%;
+  width:100%;
   border:rgba(0,0,0,.3) 2px solid;
   box-sizing:border-box;
   padding:8px;
@@ -1439,7 +1441,7 @@ a {
 }
 
 .textbox:focus{
-  outline:none;
+   outline:none;
    border:rgba(24,149,215,1) 2px solid;
    color:rgba(24,149,215,1);
 }
@@ -1451,6 +1453,7 @@ a {
 
 .button1{
   border-radius:3px;
+  width:100%;
   border:rgba(0,0,0,.3) 0px solid;
   box-sizing:border-box;
   padding:8px;
