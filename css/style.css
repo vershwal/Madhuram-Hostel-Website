@@ -107,12 +107,16 @@ a {
   .site-section.site-section-sm {
     padding: 2em 0; }
 
+.iconImage {
+  height: 24px;
+  width: 24px;
+}
 .site-footer {
   padding: 2em 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.3);
   position: relative; }
   .site-footer:before {
     position: absolute;
@@ -127,7 +131,7 @@ a {
     text-align: center;
   }
   .site-footer a {
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(255, 255, 255, 0.7); }
     .site-footer a:hover {
       color: #fff; }
   .site-footer ul li {
