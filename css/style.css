@@ -1492,6 +1492,13 @@ a {
   color: #333333;
   display: inline-block; }
 
+  .caption5 {
+  letter-spacing: .2em;
+  font-size: 18px;
+  padding: 7px 10px;
+  color: #0772F5;
+  display: inline-block; }
+
 .hostel-room {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
