@@ -1493,10 +1493,11 @@ a {
   display: inline-block; }
 
   .caption5 {
-  letter-spacing: .2em;
+  letter-spacing: .1em;
   font-size: 18px;
   padding: 7px 10px;
   color: #0772F5;
+  font-family: "Bitter", Courier, monospace;
   display: inline-block; }
 
 .hostel-room {
