@@ -1,5 +1,4 @@
-.site-blocks-cover h1{
-  }
+
 
 
   #map {
@@ -50,14 +49,17 @@ hero_3_land _|
 
 .imgCar1 {
   background-image: url("../images/hero_1.jpg");
+  background-size: 100%;
 }
 
 .imgCar2 {
   background-image: url("../images/hero_2.jpg");
+  background-size: 100%;
 }
 
 .imgCar3 {
   background-image: url("../images/hero_3.jpg");
+  background-size: 100%;
 }
 
 /*Images for Phone in Portrait mode*/
@@ -84,16 +86,19 @@ These are the same as desktop images, but can be changed*/
 @media (orientation: landscape) {
   .imgCar1 {
     background-image: url("../images/hero_1_land.jpg");
+    background-size: 100%;
     
   }
 
   .imgCar2 {
     background-image: url("../images/hero_2_land.jpg");
+    background-size: 100%;
     
   }
 
   .imgCar3 {
     background-image: url("../images/hero_3_land.jpg");
+    background-size: 100%;
     
   }
 
@@ -103,6 +108,18 @@ These are the same as desktop images, but can be changed*/
 
 .hero-text-padding {
   padding: 5em 0;
+}
+
+@media(max-width:992px) {
+  .hero-text-padding {
+    padding: 1em 0;
+  }
+}
+
+@media(max-width:768px) {
+  .hero-text-padding {
+    width:auto
+  }
 }
 
 /* This is Sass code, to get pure CSS click on "scss" label above */
@@ -141,3 +158,30 @@ These are the same as desktop images, but can be changed*/
   word-break: break-all;
 }
 
+.site-blocks-cover, .site-blocks-cover .row {
+  /*min-height: 600px;
+  height: calc(100vh);*/
+  height: calc(0.5*100vw); 
+}
+
+@media(max-width:992px) {
+.site-blocks-cover h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.site-blocks-cover h2 {
+  font-size: 2rem;
+}
+}
+
+@media(max-width:768px) {
+  .site-blocks-cover h1 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .site-blocks-cover h2 {
+    font-size: 1rem;
+  }
+  }
