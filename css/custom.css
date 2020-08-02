@@ -102,7 +102,7 @@ These are the same as desktop images, but can be changed*/
 
 
 .hero-text-padding {
-  padding: 5em 0;s
+  padding: 5em 0;
 }
 
 /* This is Sass code, to get pure CSS click on "scss" label above */
@@ -135,5 +135,9 @@ These are the same as desktop images, but can be changed*/
   background-image: url("../images/qrt2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.mail-break {
+  word-break: break-all;
 }
 
