@@ -226,6 +226,8 @@ a {
           padding-right: 0; }
       .site-navbar .site-navigation .site-menu > li.active > a {
         color: #fff !important; }
+        .site-navbar .site-navigation .site-menu > li.active1 > a {
+        color: #000 !important; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -283,6 +285,8 @@ a {
           color: #fff; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
           color: #f23a2e !important; }
+          .site-navbar .site-navigation .site-menu .has-children .dropdown .active1 > a {
+          color: #f23a2e !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -301,6 +305,8 @@ a {
             top: 0; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:active > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:focus > a {
             color: #f23a2e; }
+            .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:active1 > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:focus > a {
+            color: #f23a2e; }
       .site-navbar .site-navigation .site-menu .has-children a {
         text-transform: uppercase; }
       .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
@@ -308,6 +314,18 @@ a {
       .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
         cursor: pointer; }
         .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active > .dropdown {
+          -webkit-transition-delay: 0s;
+          -o-transition-delay: 0s;
+          transition-delay: 0s;
+          margin-top: 0px;
+          visibility: visible;
+          opacity: 1; }
+
+      .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active1 > a {
+        color: #fff; }
+      .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active1 {
+        cursor: pointer; }
+        .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active1 > .dropdown {
           -webkit-transition-delay: 0s;
           -o-transition-delay: 0s;
           transition-delay: 0s;
@@ -350,6 +368,8 @@ a {
       .site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li > a:hover {
         color: #000; }
     .site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li.active > a {
+      color: #f23a2e !important; }
+      .site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li.active1 > a {
       color: #f23a2e !important; }
 
 .site-mobile-menu {
@@ -426,6 +446,8 @@ a {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
+        color: #f23a2e; }
+        .site-mobile-menu .site-nav-wrap li.active1 > a {
         color: #f23a2e; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
