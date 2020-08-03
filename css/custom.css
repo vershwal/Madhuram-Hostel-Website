@@ -48,17 +48,17 @@ hero_3_land _|
 /*Images for Desktop and anything except phone*/
 
 .imgCar1 {
-  background-image: url("../images/hero_1.jpg");
+  background-image: url("../images/Girls-Hostels-in-Kota.jpg");
   background-size: 100%;
 }
 
 .imgCar2 {
-  background-image: url("../images/hero_2.jpg");
+  background-image: url("../images/Best-Hostels-in-Landmark-City-Kota.jpg");
   background-size: 100%;
 }
 
 .imgCar3 {
-  background-image: url("../images/hero_3.jpg");
+  background-image: url("../images/Best-Hostels-in-Kota-near-Allen.jpg");
   background-size: 100%;
 }
 
@@ -66,15 +66,15 @@ hero_3_land _|
 
 @media (max-width:768) and (orientation: portrait) {
   .imgCar1 {
-    background-image: url("../images/hero_1_port.jpg");
+    background-image: url("../images/Girls-Hostels-in-Kota.jpg");
   }
 
   .imgCar2 {
-    background-image: url("../images/hero_2_port.jpg");
+    background-image: url("../images/Best-Hostels-in-Landmark-City-Kota.jpg");
   }
   
   .imgCar3 {
-    background-image: url("../images/hero_3_port.jpg");
+    background-image: url("../images/Best-Hostels-in-Kota-near-Allen.jpg");
   }
 
 }
@@ -85,19 +85,19 @@ These are the same as desktop images, but can be changed*/
 
 @media (orientation: landscape) {
   .imgCar1 {
-    background-image: url("../images/hero_1_land.jpg");
+    background-image: url("../images/Girls-Hostels-in-Kota.jpg");
     background-size: 100%;
     
   }
 
   .imgCar2 {
-    background-image: url("../images/hero_2_land.jpg");
+    background-image: url("../images/Best-Hostels-in-Landmark-City-Kota.jpg");
     background-size: 100%;
     
   }
 
   .imgCar3 {
-    background-image: url("../images/hero_3_land.jpg");
+    background-image: url("../images/Best-Hostels-in-Kota-near-Allen.jpg");
     background-size: 100%;
     
   }
