@@ -341,5 +341,23 @@ jQuery(document).ready(function($) {
 	}
 	windowScrolled();
 
+				  
+  
+  
+  var pyof = (function () {
+	window.onscroll = () => {
+		var navbar = document.getElementById("nav-bar-js-f");
+		var sticky = navbar.offsetTop;
+		var py1 = document.getElementById("opy1");
+		if (window.pageYOffset > sticky) {
+		navbar.classList.add("sticky");
+		py1.classList.add("py1-sc");
+		} else {
+		navbar.classList.remove("sticky");
+		py1.classList.remove("py1-sc");
+		}
+	}
+  }());
+
 
 });
