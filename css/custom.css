@@ -161,7 +161,7 @@ These are the same as desktop images, but can be changed*/
 .site-blocks-cover, .site-blocks-cover .row {
   /*min-height: 600px;
   height: calc(100vh);*/
-  height: calc(0.5*100vw); 
+  height: calc(.48*100vw); 
 }
 
 @media(max-width:992px) {
@@ -185,3 +185,31 @@ These are the same as desktop images, but can be changed*/
     font-size: 1rem;
   }
   }
+
+.site-navbar-wrap {
+  position: static;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.site-navbar-wrap .site-navbar .site-logo a,
+.site-navbar-wrap .site-menu-toggle span {
+  color: black;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+site-navbar-wrap .site-navbar .site-navigation .site-menu > li > a {
+  color: black;
+  font-size: 15px; }
+
+  .site-navbar-wrap .site-navbar .site-navigation .site-menu > li > a:hover {
+    color: #fff; }
+
+.py1-sc {
+  padding-top: 0;
+}
